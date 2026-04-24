@@ -40,7 +40,7 @@ services:
 volumes:
   rd_data:
 
-networks:
-  default:
-    external:
-      name: "${RADIUSDESK_NETWORK}"
+# networks:
+#   default:
+#     external:
+#       name: "${RADIUSDESK_NETWORK}"
