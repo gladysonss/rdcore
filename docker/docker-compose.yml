@@ -1,8 +1,8 @@
 services:
   radiusdesk:
     build:
-      context: ./
-      dockerfile: Dockerfile-build-radiusdesk
+      context: .
+      dockerfile: docker/Dockerfile-build-radiusdesk
       args:
         radiusdesk_volume: ${RADIUSDESK_VOLUME}
     container_name: radiusdesk
